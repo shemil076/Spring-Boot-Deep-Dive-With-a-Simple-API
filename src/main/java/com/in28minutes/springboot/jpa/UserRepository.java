@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
 
-//@Repository
+@Repository
 public interface UserRepository extends   CrudRepository<User, Long> {
 
 }
